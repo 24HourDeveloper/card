@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 62px);
+  }
+  .card-wrapper {
+    width: 300px;
+    height: 550px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 8px #888888;
+    background-color: #F1F1F1;
+  }
+  .img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .content-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stat-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .stat-title {
+    padding-bottom: 20px;
+  }
+  .stat-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* navigation styling */
+  nav {
+    background-color: coral;
+    padding: 20px;
+  }
+  .nav-item {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
