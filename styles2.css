@@ -6,7 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 62px);
+    height: 100%;
+    margin: 50px 0;
   }
   .card-wrapper {
     width: 300px;
@@ -54,4 +55,64 @@
     text-decoration: none;
     margin: 0 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  /* start of beauty card */
+  .beauty-card {
+    width: 600px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 8px #000;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .beauty-card::before {
+    content: "";
+    background-image: url('img/beauty.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left-container ul {
+    list-style: none;
+  }
+  .left-container ul li {
+    margin-bottom: 5px;
+  }
+  .left-container h2 {
+    margin-bottom: 10px;
+  }
+  .left-container h3 {
+    margin-bottom: 5px;
+  }
+  .right-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .right-container h1{
+    margin-bottom: 15px;
+  }
+  .beauty-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
   }
