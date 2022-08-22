@@ -15,3 +15,30 @@
     margin: 0 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
+
+  section {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .square1 {
+    display: flex;
+    width: fit-content;
+    height: 200px;
+    border: 2px solid green;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .inner-square {
+    padding: 10px;
+    border: 2px solid #000;
+  }
+  .mid {
+    display: flex;
+    align-items: center;
+  }
+  .bottom {
+    display: flex;
+    align-items: flex-end;
+  }
